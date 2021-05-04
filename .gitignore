@@ -1,0 +1,12 @@
+# Intellij
+*.iml
+*.iws
+.idea/
+
+# Node
+node_modules
+
+# Aplazatest reporter
+driver-logs
+reports
+

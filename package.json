@@ -1,0 +1,27 @@
+{
+  "name": "aplazatest",
+  "version": "0.0.1",
+  "description": "Proyecto de test creado para realizar pruebas sobre el proceso de checkout de Aplazame",
+  "repository": {},
+  "keywords": [],
+  "author": "Alberto Barragán Costo",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint test --max-warnings 0",
+    "test": "wdio run ./config/wdio.conf.js",
+    "test:headless": "wdio run ./config/headless.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/cli": "7.5.3",
+    "@wdio/cucumber-framework": "7.5.3",
+    "@wdio/local-runner": "7.5.3",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "7.0.0",
+    "eslint": "7.25.0",
+    "standard": "16.0.3",
+    "eslint-plugin-prettier": "3.4.0",
+    "wdio-cucumberjs-json-reporter": "2.0.4",
+    "@wdio/dot-reporter": "7.5.3",
+    "@wdio/spec-reporter": "7.5.3"
+  }
+}
